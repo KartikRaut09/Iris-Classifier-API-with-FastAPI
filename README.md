@@ -4,9 +4,10 @@
 This project demonstrates how to deploy a machine learning model using FastAPI.
 
 ## Features
-- Trains a RandomForestClassifier on the Iris dataset
-- Serves predictions via a FastAPI-based REST API
-
+- Trains a `RandomForestClassifier` on the Iris dataset.
+- Serves predictions via a FastAPI REST API.
+- Uses Swagger UI for easy API testing.
+- Supports real-time ML inference with validated JSON input.
 ## How to Run
 
 1. Install dependencies:
